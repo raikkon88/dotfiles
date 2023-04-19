@@ -44,15 +44,13 @@ declare -a BREW_APPS=(
 
 declare -a APT_GET_APPS=(
   build-essential # Needed by linuxBrew
-  curl # Needed by linuxBrew
-  file # Needed by linuxBrew
-  git # Needed by linuxBrew
+  curl            # Needed by linuxBrew
+  file            # Needed by linuxBrew
+  git             # Needed by linuxBrew
   default-jdk
 )
 
 declare -a BREW_CASK_APPS=(
-  docker
-  dropbox
   firefox
   iterm2
   postman
@@ -61,9 +59,9 @@ declare -a BREW_CASK_APPS=(
   visual-studio-code
   lastpass
   google-chrome
-  leapp # New AWS authentication method
+  leapp                  # New AWS authentication method
   session-manager-plugin # https://enter-lmwiki.launchmetrics.com/en/guides/aws-system-manager
-  slack # Moved here because it's already installed on company laptops
+  slack                  # Moved here because it's already installed on company laptops
   zoom
 )
 
@@ -79,7 +77,7 @@ declare -a YARN_APPS=(
 )
 
 declare -a NPM_PACKAGES=(
-  eslint # Needed to check js code on vscode
+  eslint            # Needed to check js code on vscode
   npm-check-updates # Needed to check if the other packages are up to date
 )
 
