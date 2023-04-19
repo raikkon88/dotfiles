@@ -1,6 +1,6 @@
 {
   "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Default Dark+",
   "editor.scrollBeyondLastLine": false,
   "explorer.autoReveal": false,
   "workbench.colorCustomizations": {
@@ -11,7 +11,8 @@
   "gitlens.mode.active": "zen",
   "atomKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "extensions.ignoreRecommendations": true,
 
   "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/marc.sanchez/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
@@ -173,5 +174,13 @@
   "databricks.lastActiveConnection": "DEFAULT",
   "jupyter.interactiveWindow.cellMarker.codeRegex": "^(#\\s*COMMAND\\s*[-]*|#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
   "chatgpt.promptPrefix.customPrompt1": "Refactor",
-  "chatgpt.promptPrefix.customPrompt1-enabled": true
+  "chatgpt.promptPrefix.customPrompt1-enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "sonarlint.rules": {
+    "python:S1542": {
+      "level": "off"
+    }
+  }
 }

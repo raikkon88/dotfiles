@@ -1,4 +1,4 @@
-# Marc Sánchez's Dotfiles
+# Albert Vila's Dotfiles
 
 This is a collection of dotfiles and scripts I use for customizing OS X/Linux to my liking and setting up the software development tools I use on a day-to-day basis. It can be cloned anywhere. It includes a setup script that creates the symlinks from your home directory to the cloned repository.
 
@@ -29,7 +29,7 @@ If you would like to change the theme just run `p10k configure`
 Before installing under OSX make sure you have the `git` command installed. If not, just open a `Terminal` and install the command line tools by typing `xcode-select --install`.
 
 ```sh
-$ git clone https://github.com/raikkon88/dotfiles.git ~/dotfiles
+$ git clone https://github.com/<githubuser>/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
 $ sh ./setup.sh
 ```
