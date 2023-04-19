@@ -182,5 +182,8 @@
     "python:S1542": {
       "level": "off"
     }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
