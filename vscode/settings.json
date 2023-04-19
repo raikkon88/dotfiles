@@ -177,5 +177,10 @@
   "chatgpt.promptPrefix.customPrompt1-enabled": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
+  },
+  "sonarlint.rules": {
+    "python:S1542": {
+      "level": "off"
+    }
   }
 }
