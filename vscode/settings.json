@@ -169,7 +169,6 @@
   "githubPullRequests.pullBranch": "never",
   "perltidy-more.executable": "/opt/homebrew/bin/perltidy",
   "perltidy-more.profile": "/Users/marc.sanchez/.perltidyrc",
-  "window.zoomLevel": 1,
   "databricks.connectionManager": "Databricks CLI Profiles",
   "databricks.lastActiveConnection": "DEFAULT",
   "jupyter.interactiveWindow.cellMarker.codeRegex": "^(#\\s*COMMAND\\s*[-]*|#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
@@ -185,5 +184,6 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.zoomLevel": 1
 }
