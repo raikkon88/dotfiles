@@ -1,22 +1,23 @@
 [push]
-	default = simple
+default = simple
 [core]
-	editor = /usr/bin/vim
-	excludesfile = ~/.gitignore
+editor = /usr/bin/vim
+excludesfile = ~/.gitignore
+	hooksPath = /Users/marc.sanchez/.GIS-lm-build/git-hooks
 [merge]
-	ff = false
+ff = false
 [pull]
-	rebase = merges
+rebase = merges
 [commit]
-	gpgsign = true
-	verbose = true
-[includeIf "gitdir:~/workspace/"]
-	path = ~/.gitconfig-lm
+gpgsign = true
+verbose = true
+# [includeIf "gitdir:~/workspace/"]
+# 	path = ~/.gitconfig-lm
 [credential "https://github.com"]
-	helper =
-	helper = !/opt/homebrew/bin/gh auth git-credential
+helper =
+helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper =
-	helper = !/opt/homebrew/bin/gh auth git-credential
+helper =
+helper = !/opt/homebrew/bin/gh auth git-credential
 [include]
-    path = ~/dotfiles/git/custom
+path = ~/dotfiles/git/custom

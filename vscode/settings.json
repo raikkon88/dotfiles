@@ -41,7 +41,6 @@
   "files.trimFinalNewlines": true,
   "java.errors.incompleteClasspath.severity": "ignore",
   "diffEditor.renderSideBySide": false,
-  "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
@@ -110,7 +109,7 @@
     "zshrc": "shellscript"
   },
   "yaml.schemas": {
-    "file:///Users/marc.sanchez/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/marc.sanchez/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.jqlList": [
     {
@@ -136,7 +135,7 @@
   "java.project.importHint": false,
   "editor.renderControlCharacters": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false
+    "source.fixAll.eslint": "never"
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -180,10 +179,37 @@
   "sonarlint.rules": {
     "python:S1542": {
       "level": "off"
+    },
+    "python:S117": {
+      "level": "off"
+    },
+    "python:S100": {
+      "level": "off"
     }
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://sonarqube.launchmetrics.com",
+      "connectionId": "https-sonarqube-launchmetrics-com"
+    }
+  ],
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
 }

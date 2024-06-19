@@ -9,7 +9,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-unalias lm
+# unalias lm
 for script in $HOME/.scripts/*; do
   source $script
 done
@@ -110,9 +110,21 @@ eval "$(pyenv init -)"
 # Direnv hook
 eval "$(direnv hook zsh)"
 
-# Lm
-export PATH="$HOME/.GIS-lm-build/bin:$PATH"
-
 load-nvm
 
-source /Users/marc.sanchez/projects/VCP-toolkit/galleries.sh
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+source /Users/marc.sanchez/projects/LM-Security/backoffice/bash/aliases.sh
+
+# bun completions
+[ -s "/Users/marc.sanchez/.bun/_bun" ] && source "/Users/marc.sanchez/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias zap="/Users/marc.sanchez/projects/ZAP_2.14.0/zap.sh"
+
+# LM
+export PATH="$HOME/.GIS-lm-build/bin:$PATH"
+alias lm="/Users/marc.sanchez/.GIS-lm-build/bin/lm"
+alias git-xpush="/Users/marc.sanchez/.GIS-lm-build/bin/git-xpush"
