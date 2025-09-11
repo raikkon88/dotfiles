@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "[graphql]": {},
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Default Dark+"
+}
