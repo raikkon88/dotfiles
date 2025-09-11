@@ -107,13 +107,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+## BREW
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ## Aliases
 alias chezmoi='~/bin/chezmoi'
-
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+alias cat='bat'
+alias ls='eza -la'
+alias json='bat | pp_json'
