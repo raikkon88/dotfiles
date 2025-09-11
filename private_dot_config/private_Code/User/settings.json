@@ -2,5 +2,7 @@
     "workbench.iconTheme": "vscode-icons",
     "[graphql]": {},
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Default Dark+",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }
