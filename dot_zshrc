@@ -132,8 +132,10 @@ alias chezmoi='~/bin/chezmoi'
 alias cat='bat'
 alias ls='eza -la'
 alias json='bat | pp_json'
+
 # Custom aliases
 if [ "$OS" = "Darwin" ]; then
+  alias zap='~/bin/zap'
   source ~/projects/LM-Security/backoffice/bash/aliases.sh
   source ~/projects/LM-Security/backoffice/bash/sre.sh
 fi
