@@ -36,8 +36,6 @@ download_url_packages=(
     "https://updates.insomnia.rest/downloads/ubuntu/latest?&app=com.insomnia.app&source=website"
 )
 
-
-
 install_packages "${packages[@]}"
 
 
@@ -48,5 +46,3 @@ if [ "$OS" = "Linux" ]; then
 elif [ "$OS" = "Darwin" ]; then
     install_graphic_packges "${mac_graphic_packages[@]}"
 fi
-
-

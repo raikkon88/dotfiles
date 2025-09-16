@@ -113,9 +113,6 @@ function install_packages() {
             brew install "$item"
         fi
     done
-
-    # Install oh my zsh
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 }
 
 function install_graphic_packges() {
