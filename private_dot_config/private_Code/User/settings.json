@@ -5,5 +5,8 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
